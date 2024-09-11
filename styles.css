@@ -19,8 +19,20 @@ html,body{
     --btn_bg_hover:#30363d;
     --btn_color:#c9d1d9;
     
+}
 
+.container{
+    width: 80%;
+    min-width: 250px;
+    max-width: 400px;
+    margin: 2em auto;
+    background: var(--profile-bg);
 
+}
 
+.content{
+    max-width: 100%;
+    border-radius:50%;
+    border: 2px solid var(--profile-img-bd);
 
 }
