@@ -15,9 +15,9 @@ html,body{
     --usernamefont-weight:500;
     --btn_bg:#21262d;
     --btn_border:#373b43;
-    --btn_border_hover:#8c949e;
+    --btn_border_hover:#94ecf2;
     --btn_bg_hover:#30363d;
-    --btn_color:#c9d1d9;
+    --btn_color:#ffebcd;
     
 }
 
@@ -40,4 +40,18 @@ html,body{
     border-radius: 50%;
     border: 2px solid var(--profile-img-bd);
 
+}
+
+.details button{
+    width: 100%;
+    background-color: var(--btn_bg);
+    color: var(--btn_color);
+    border: 4px var(--btn_border);
+    border-radius: 8px;
+    padding: .3em 0;
+}
+
+.details button:hover{
+    background: var(--btn_bg_hover);
+    border-color: var(--btn_border_hover);
 }
