@@ -3,15 +3,16 @@ html,body{
     padding: 0%;
     background: #ffebcd;
     color: rgb(0, 0, 0);
+    font-family: var(--font);
 }
 
 :root{
     --font: 'Franklin Gothic Medium', 'Arial Narrow';
-    --profile-bg : #68685e;
+    --profile-bg : hsl(36, 35%, 63%);
     --main-bg : #000;
     --profile-color: #c9d1d9;
     --profile-img-bd: #2e343d;
-    --usernamefont-color:#ab949e;
+    --usernamefont-color:#000000;
     --usernamefont-weight:500;
     --btn_bg:#21262d;
     --btn_border:#373b43;
@@ -49,9 +50,24 @@ html,body{
     border: 4px var(--btn_border);
     border-radius: 8px;
     padding: .3em 0;
+    font-family: inherit;
 }
 
+.details h3{
+    font-size: 1em;
+    color: var(--usernamefont-color);
+    font-weight: var(--usernamefont-weight);
+}
 .details button:hover{
     background: var(--btn_bg_hover);
     border-color: var(--btn_border_hover);
+}
+
+.details h2
+.details h3{
+    margin :0
+}
+
+.details {
+    padding: 1.5em 0;
 }
