@@ -1,6 +1,26 @@
 html,body{
     margin: 0%;
     padding: 0%;
-    background: blanchedalmond;
+    background: #ffebcd;
     color: rgb(0, 0, 0);
+}
+
+:root{
+    --font: 'Franklin Gothic Medium', 'Arial Narrow';
+    --profile-bg : #0d1117;
+    --main-bg : #000;
+    --profile-color: #c9d1d9;
+    --profile-img-bd: #2e343d;
+    --usernamefont-color:#ab949e;
+    --usernamefont-weight:500;
+    --btn_bg:#21262d;
+    --btn_border:#373b43;
+    --btn_border_hover:#8c949e;
+    --btn_bg_hover:#30363d;
+    --btn_color:#c9d1d9;
+    
+
+
+
+
 }
