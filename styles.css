@@ -7,7 +7,7 @@ html,body{
 
 :root{
     --font: 'Franklin Gothic Medium', 'Arial Narrow';
-    --profile-bg : #0d1117;
+    --profile-bg : #68685e;
     --main-bg : #000;
     --profile-color: #c9d1d9;
     --profile-img-bd: #2e343d;
@@ -31,8 +31,13 @@ html,body{
 }
 
 .content{
+    padding: 1em 2em;
+    
+}
+
+.content img{
     max-width: 100%;
-    border-radius:50%;
+    border-radius: 50%;
     border: 2px solid var(--profile-img-bd);
 
 }
